@@ -15,7 +15,7 @@
     padding: 0.2em;
 }
 
-.header .icon {
+.header .icon { 
     text-align: justify;
     text-align-last: right;
     margin-top: -40px;
@@ -32,6 +32,9 @@
     line-height: 1.2;
     margin-top: 0.8em;
     margin-bottom: -0.5em;
+    margin-left: -0.16em;
+    margin-right: -0.19em;
+    padding-left: 0.5em;
 }
 
 .time > p{
@@ -44,6 +47,11 @@
 .time svg {
     font-size: 17px;
 }
+
+.title {
+    cursor: pointer !important;
+}
+
 
 .images img{
     width: 40px;

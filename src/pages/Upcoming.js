@@ -2,9 +2,12 @@ import React, {useState} from "react";
 import style from "../style/upcoming.module.css";
 import data from "../data/upcomingCard.json";
 import SubHeader from "../components/SubHeader";
+import UpcomingBottomSheet from "../components/UpcomingBottomSheet";
 import { BellOutlined, CalendarOutlined } from "@ant-design/icons"
 
 export default function Upcoming(){
+
+    const [sheetVisible, setSheetVisible] = useState(false);
 
     const {today} = data;
 
@@ -28,7 +31,7 @@ export default function Upcoming(){
                             <BellOutlined />
                         </div>
                     </div>
-                    <h5>{item.title}</h5>
+                    <h5 className={style.title} onClick={() => setSheetVisible(true)}>{item.title}</h5>
                     <div className={style.images}>
                         <img src={item.images[0]} alt="" />
                         <img src={item.images[1]} alt="" />
@@ -38,8 +41,15 @@ export default function Upcoming(){
                         <p className={style.description}>{item.description}</p>
                     </>
                 ))}
+            
             </div>
+            <UpcomingBottomSheet 
+        sheetTitle="start room" 
+        setSheetVisible={(item) => setSheetVisible(item)}
+        sheetVisible={sheetVisible}
+        />
         </div>
+        
         
     );
 }

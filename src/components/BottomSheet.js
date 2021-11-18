@@ -7,7 +7,7 @@ import NewRoom from "./bottom_sheets/NewRoom";
 
 export default function BottomSheet(props){
     
-    return (
+    return ( 
         <SwipeableBottomSheet 
         open={props.sheetVisible}
         onChange={() => {
