@@ -1,70 +1,70 @@
 [
   {
     "id": 1,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "CRYPTO TALKS",
+    "sub_title": "Ben Armstrong x Tyler Winklevoss on Crypto talks Show",
     "members": [
       {
-        "first_name": "Sriram",
-        "last_name": "krishnan"
+        "first_name": "Anthony",
+        "last_name": "Pompliano"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "Peter",
+        "last_name": "Brandt"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
+        "first_name": "Ivan",
+        "last_name": "Liljeqvist"
       },
       {
-        "first_name": "Paul",
-        "last_name": "Davison"
+        "first_name": "Nicholas",
+        "last_name": "Merten"
       }
     ]
   },
   {
     "id": 2,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "WHAT THE TECH",
+    "sub_title": "Jeff Bezos x Steve Jobs on WhatTheTech Podcast",
     "members": [
       {
-        "first_name": "Sriram",
-        "last_name": "krishnan"
+        "first_name": "Sundar",
+        "last_name": "Pichai"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "Tom",
+        "last_name": "Mueller"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
+        "first_name": "Steve",
+        "last_name": "Wozniak"
       },
       {
-        "first_name": "Paul",
-        "last_name": "Davison"
+        "first_name": "Sergey",
+        "last_name": "Brin"
       }
     ]
   },
   {
     "id": 3,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "WHAT THE TECH",
+    "sub_title": "Jeff Bezos x Steve Jobs on WhatTheTech Podcast",
     "members": [
       {
-        "first_name": "Sriram",
-        "last_name": "krishnan"
+        "first_name": "Sundar",
+        "last_name": "Pichai"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "Tom",
+        "last_name": "Mueller"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
+        "first_name": "Steve",
+        "last_name": "Wozniak"
       },
       {
-        "first_name": "Paul",
-        "last_name": "Davison"
+        "first_name": "Sergey",
+        "last_name": "Brin"
       }
     ]
   }
