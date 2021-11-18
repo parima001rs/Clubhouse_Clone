@@ -11,6 +11,7 @@ import Explore from "./pages/Explore";
 import Profile from "./pages/Profile";
 import Activity from './pages/Activity';
 import Upcoming from './pages/Upcoming';
+import Invite from './pages/Invite';
 //on home route, Welcome page is visible
 //similarly, on route/invite, PhoneConfirmation page is visible
 
@@ -35,7 +36,7 @@ function App() {
     </Switch>
     </PlanLayout>
     </Route>
-    <Route exact path={['/home', '/explore', '/profile', '/activity', '/upcoming']}>
+    <Route exact path={['/home', '/explore', '/profile', '/activity', '/upcoming', '/friends_invite']}>
       <AppLayout>
         <Switch>
           <Route exact path="/home" component={() => <Home />} />
@@ -43,6 +44,7 @@ function App() {
           <Route exact path="/profile" component={() => <Profile />} />
           <Route exact path="/activity" component={() => <Activity />} />
           <Route exact path="/upcoming" component={() => <Upcoming />} />
+          <Route exact path="/friends_invite" component={() => <Invite />} />
         </Switch>
       </AppLayout>
     </Route>

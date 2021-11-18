@@ -1,0 +1,64 @@
+.inviteContainer {
+    padding: 0 0.5em;
+    height: 100%;
+    overflow: auto;
+    padding-top: 3em;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #f2f0e4;
+    z-index: 5;
+    padding: 0.4em;
+}
+
+.header div {
+    padding-bottom: 2.2em;
+}
+
+.header p {
+    margin-bottom: -0.3em;
+    font-size: 17px;
+}
+
+.inviteDiv{
+    padding: 0.5em 0.5em 1.5em 0.5em;
+    padding-top: 6.2em;
+    position: relative;
+}
+
+.inviteDiv > div > div > img {
+    width: 55px;
+    border: none;
+    border-radius: 30%;
+}
+
+.inviteDiv .text {
+    font-size: 15px;
+    color: rgb(24, 23, 23);
+    padding-top:15px;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 80%;
+}
+
+.text:first-child {
+    font-weight: 400;
+}
+
+.inviteDiv .btn > button{
+    font-size: 1.3em;
+    font-weight: 450;
+    border: none;
+    border-radius: 2em;
+    color: #ffffff;
+    background-color: var(--btnBgColor);
+    padding: 0.2em 1em;
+    text-align: center;
+}
+
+
+
