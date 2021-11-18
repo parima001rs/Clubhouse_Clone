@@ -16,9 +16,9 @@ export default function CodeConfirm(){
                 <span> Tap to resend.</span>
                 </p>
             </div>
-            <Link exact to="/allow_notification"
+            <Link exact to="/setup_profile"
                 className="primaryBtn d-flex align-items-center">
-                    Next <img src="/images/nextArrowIcon.svg" alt="" />
+                    Next &#8594;
             </Link>
         </div>
     );

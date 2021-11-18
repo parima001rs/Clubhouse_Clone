@@ -12,6 +12,7 @@ import Profile from "./pages/Profile";
 import Activity from './pages/Activity';
 import Upcoming from './pages/Upcoming';
 import Invite from './pages/Invite';
+import SetProfile from './pages/SetProfile';
 //on home route, Welcome page is visible
 //similarly, on route/invite, PhoneConfirmation page is visible
 
@@ -24,6 +25,7 @@ function App() {
       '/get_username',
       '/code_confirm',
       '/allow_notification',
+      '/setup_profile'
     ]}
     >
 
@@ -33,6 +35,7 @@ function App() {
       <Route exact path="/invite" component={PhoneConfirmation} />
       <Route exact path="/code_confirm" component={CodeConfirm} />
       <Route exact path="/allow_notification" component={AllowNotification} />
+      <Route exact path="/setup_profile" component={SetProfile} />
     </Switch>
     </PlanLayout>
     </Route>
