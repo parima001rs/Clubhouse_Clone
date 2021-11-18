@@ -1,0 +1,61 @@
+.fullNameContainer {
+    padding: 3em 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #f2f0e4;
+    position: relative;
+}
+
+.fullNameContainer h1 {
+    font-size: 1.3em;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 1em;
+    color: var(--textColor);
+    text-align: center;
+}
+
+.fullNameContainer > div > input{
+    border: none;
+    border-radius: 0.4em;
+    text-align: center;
+    margin: 1em 0.2em;
+    padding: 0.3em 0.0005em;
+}
+
+.fullNameContainer p {
+    font-size: 0.8em;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    width: 100%;
+    max-width: 270px;
+    color: #cccccc;
+    text-align: center;
+}
+
+.backBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.backBtn img {
+    width: 20px;
+}
+
+/* .action_btn {
+    position: relative;
+} */
+
+.action_btn a {
+    display: inline-block;
+    width: 50%;
+    padding: 0.5em;
+    border-top: 1px solid #cccccc;
+    color: var(--btnBgColor);
+}
+

@@ -16,7 +16,7 @@ export default function SetProfile(){
             <Link className="primaryBtn d-flex align-items-center mb3">
             <AiOutlineTwitter /> import from Twitter
             </Link>
-            <Link exact to='/allow_notification'>
+            <Link exact to='/set_name'>
                 Enter my info manually
             </Link>
         </div>

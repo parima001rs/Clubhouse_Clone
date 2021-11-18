@@ -22,7 +22,7 @@ export default function Header(){
                 </Link>
 
                 <Link exact to="/profile">
-                    <img src="/images/b1.png" alt="" />
+                    <img style={{borderRadius: "50%"}} src="/images/user-img.jpg" alt="" />
                 </Link>
             </div>
         </div>

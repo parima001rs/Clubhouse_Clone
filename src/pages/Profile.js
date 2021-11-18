@@ -27,8 +27,8 @@ export default function Profile() {
             alt=""
             className={style.profile_image}
             />
-            <h4>Rafeh Qazi</h4>
-            <p>@cleverqazi</p>
+            <h4>Rubert Almond</h4>
+            <p>@rareAlmond</p>
             <div className={style.follow}>
                 <p>
                     <span>0</span> followers
@@ -47,11 +47,11 @@ export default function Profile() {
                 </button>
             </div>
             <div class={style.nominated}>
-                <img src="/images/user-img.jpg" alt="" />
+                <img src="/images/friend.jpg" alt="" />
                 <div>
                     <p>Joined 14-July-2020</p>
                     <p>
-                        Nominated by <span>Anton Alarcon</span>
+                        Nominated by <span>BlueMoon</span>
                     </p>
                 </div>
             </div>

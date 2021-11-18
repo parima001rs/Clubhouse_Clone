@@ -13,6 +13,9 @@ import Activity from './pages/Activity';
 import Upcoming from './pages/Upcoming';
 import Invite from './pages/Invite';
 import SetProfile from './pages/SetProfile';
+import FullName from './pages/FullName';
+import Username from './pages/Username';
+import ProfilePicture from './pages/ProfilePicture';
 //on home route, Welcome page is visible
 //similarly, on route/invite, PhoneConfirmation page is visible
 
@@ -25,7 +28,10 @@ function App() {
       '/get_username',
       '/code_confirm',
       '/allow_notification',
-      '/setup_profile'
+      '/setup_profile',
+      '/set_name',
+      '/set_username',
+      '/set_profilePicture'
     ]}
     >
 
@@ -36,6 +42,9 @@ function App() {
       <Route exact path="/code_confirm" component={CodeConfirm} />
       <Route exact path="/allow_notification" component={AllowNotification} />
       <Route exact path="/setup_profile" component={SetProfile} />
+      <Route exact path="/set_name" component={FullName} />
+      <Route exact path="/set_username" component={Username} />
+      <Route exact path="/set_profilePicture" component={ProfilePicture} />
     </Switch>
     </PlanLayout>
     </Route>

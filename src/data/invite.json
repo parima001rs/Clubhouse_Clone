@@ -2,43 +2,43 @@
     "invite" :[
     {
       "id": 1,
-      "image": "/images/user-img.jpg",
+      "image": "/images/profile.jpg",
       "name": "Grant Cardone",
       "friendsCount": "39"
     },
     {
       "id": 2,
-      "image": "/images/user-img.jpg",
+      "image": "/images/profile.jpg",
       "name": "Grant Cardone",
       "friendsCount": "28"
     },
     {
       "id": 3,
-      "image": "/images/user-img.jpg",
+      "image": "/images/profile.jpg",
       "name": "Grant Cardone",
       "friendsCount": "21"
     },
     {
       "id": 4,
-      "image": "/images/user-img.jpg",
+      "image": "/images/profile.jpg",
       "name": "Grant Cardone",
       "friendsCount": "36"
     },
     {
       "id": 5,
-      "image": "/images/user-img.jpg",
+      "image": "/images/profile.jpg",
       "name": "Grant Cardone",
       "friendsCount": "12"
     },
     {
       "id": 6,
-      "image": "/images/user-img.jpg",
+      "image": "/images/profile.jpg",
       "name": "Grant Cardone",
       "friendsCount": "29"
     },
     {
       "id": 7,
-      "image": "/images/user-img.jpg",
+      "image": "/images/profile.jpg",
       "name": "Grant Cardone",
       "friendsCount": "06"
     }
