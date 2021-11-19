@@ -32,7 +32,7 @@
     font-style: normal;
     margin: 0;
     width: 100%;
-    max-width: 270px;
+    /* max-width: 270px; */
     color: #cccccc;
     text-align: center;
 }
@@ -45,11 +45,7 @@
 
 .backBtn img {
     width: 20px;
-}
-
-/* .action_btn {
-    position: relative;
-} */
+}cd de
 
 .action_btn a {
     display: inline-block;
