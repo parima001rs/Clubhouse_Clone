@@ -12,8 +12,10 @@ export default function FullName() {
 
             <div>
             <h1>What's your full name?</h1>
+            <div style={{display: "flex"}}>
             <input type="text" placeholder="First Name" />
             <input type="text" placeholder="Last Name" />
+            </div>
             <p>People use real names on Clubhouse :) Thnx!</p>
             </div>
 
